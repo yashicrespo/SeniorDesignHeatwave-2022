@@ -1,0 +1,56 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-heatmap-dev-71751-authRole",
+      "UnauthRoleArn": "arn:aws:iam::324498430329:role/amplify-heatmap-dev-71751-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::324498430329:role/amplify-heatmap-dev-71751-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-heatmap-dev-71751-deployment",
+      "UnauthRoleName": "amplify-heatmap-dev-71751-unauthRole",
+      "StackName": "amplify-heatmap-dev-71751",
+      "StackId": "arn:aws:cloudformation:us-west-2:324498430329:stack/amplify-heatmap-dev-71751/f6989d80-53ac-11ec-b8bc-027c0063b53f",
+      "AmplifyAppId": "d23ph8krsacc0d"
+    }
+  },
+  "auth": {
+    "heatmap3b44fda5": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "frontendAuthConfig": {
+        "socialProviders": [],
+        "usernameAttributes": [],
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": []
+        },
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-heatmap-dev-71751-deployment/amplify-cfn-templates/auth/heatmap3b44fda5-cloudformation-template.json",
+        "logicalId": "authheatmap3b44fda5"
+      },
+      "lastPushTimeStamp": "2021-12-02T21:05:10.873Z",
+      "output": {
+        "UserPoolId": "us-west-2_VDe0Tmory",
+        "AppClientIDWeb": "7tanr9g6emfsostge5r1veusoo",
+        "AppClientID": "1ji3n4otprcigit098ilu5gudp",
+        "IdentityPoolId": "us-west-2:5e2dec1e-bf86-45b0-acce-478399152696",
+        "UserPoolArn": "arn:aws:cognito-idp:us-west-2:324498430329:userpool/us-west-2_VDe0Tmory",
+        "IdentityPoolName": "heatmap3b44fda5_identitypool_3b44fda5__dev",
+        "UserPoolName": "heatmap3b44fda5_userpool_3b44fda5"
+      },
+      "lastPushDirHash": "SV4GFDGMT6s7lI8moDl+7RtZhhc="
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-heatmap-dev-71751-authRole",
+      "UnauthRoleArn": "arn:aws:iam::324498430329:role/amplify-heatmap-dev-71751-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::324498430329:role/amplify-heatmap-dev-71751-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-heatmap-dev-71751-deployment",
+      "UnauthRoleName": "amplify-heatmap-dev-71751-unauthRole",
+      "StackName": "amplify-heatmap-dev-71751",
+      "StackId": "arn:aws:cloudformation:us-west-2:324498430329:stack/amplify-heatmap-dev-71751/f6989d80-53ac-11ec-b8bc-027c0063b53f",
+      "AmplifyAppId": "d23ph8krsacc0d"
+    },
+    "categories": {
+      "auth": {
+        "heatmap3b44fda5": {}
+      }
+    }
+  }
+}
